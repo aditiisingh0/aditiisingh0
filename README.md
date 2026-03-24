@@ -26,12 +26,47 @@
 ---
 
 ## 📌 Featured Project
-### IoT-Based Weather Monitoring System
-- Built full-stack IoT system using Arduino + FastAPI + MongoDB
-- Designed REST APIs for real-time sensor data
-- Created Streamlit dashboard for visualization
-- Performed data analysis using Pandas & NumPy
+## 🚀 Featured Projects
 
+### 🔹 LokAI – AI Government Scheme Assistant
+A multilingual AI assistant that helps Indian citizens find and understand government welfare schemes.
+- AI chatbot for scheme information
+- Eligibility checker
+- Voice interaction support
+- Built using HTML, CSS, JavaScript, APIs
+
+🔗 Project Link: https://github.com/aditisingh0/LokAI
+
+---
+
+### 🔹 CyberGuard – Digital Identity Protection Platform
+AI-powered cybersecurity platform that analyzes digital footprints and detects data breach risks.
+- Digital identity risk score
+- Security recommendations
+- Data breach detection
+- Cyber awareness dashboard
+
+🔗 Project Link: https://github.com/aditisingh0/CyberGuard-Digital-Identity-Protection-Platform
+
+---
+
+### 🔹 NotesKeeper – Notes Management Web App
+A web app to create, store, and manage notes.
+- Add, edit, delete notes
+- Simple and responsive UI
+- Local storage/database support
+
+🔗 Project Link: https://github.com/aditisingh0/NotesKeeper-
+
+---
+
+### 🔹 IoT-Based Weather Monitoring System
+IoT system that collects environmental data and shows analytics dashboard.
+- Arduino sensor data collection
+- FastAPI backend
+- MongoDB database
+- Streamlit dashboard
+- Real-time data visualization
 ---
 
 ## 📊 GitHub Stats
