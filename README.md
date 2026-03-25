@@ -25,7 +25,6 @@
 
 ---
 
-## 📌 Featured Project
 ## 🚀 Featured Projects
 
 ### 🔹 LokAI – AI Government Scheme Assistant
