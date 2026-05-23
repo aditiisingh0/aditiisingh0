@@ -64,11 +64,32 @@
 ---
 
 
-<!-- AUTO-UPDATED PINNED REPOS SECTION — updated by GitHub Actions -->
-## 📌 Pinned Repositories
-<!-- PINNED-REPOS-START -->
-<!-- This section is auto-updated every day by GitHub Actions workflow -->
-<!-- PINNED-REPOS-END -->
+## 📌 All Repositories
+
+<div align="center">
+
+[![ai-spend-audit](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=ai-spend-audit&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/ai-spend-audit)
+[![oneatlas-template-backend](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=oneatlas-template-backend&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/oneatlas-template-backend)
+
+[![OneAtlas-Backend](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=OneAtlas-Backend&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/OneAtlas-Backend)
+[![jan-aushadhi-mitrah](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=jan-aushadhi-mitrah&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/jan-aushadhi-mitrah)
+
+[![CompIQ](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=CompIQ&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/CompIQ)
+[![appforge](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=appforge&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/appforge)
+
+[![Polyglot-Calculators](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=Polyglot-Calculators&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/Polyglot-Calculators)
+[![folioforge](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=folioforge&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/folioforge)
+
+[![jan-aushadhi-mitra](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=jan-aushadhi-mitra&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/jan-aushadhi-mitra)
+[![cyber_security_env](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=cyber_security_env&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/cyber_security_env)
+
+[![Interactive-Calendar-](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=Interactive-Calendar-&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/Interactive-Calendar-)
+[![CyberGuard-Digital-Identity-Protection-Platform](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=CyberGuard-Digital-Identity-Protection-Platform&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/CyberGuard-Digital-Identity-Protection-Platform)
+
+[![LOKAI](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=LOKAI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/LOKAI)
+[![NotesKeeper-](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=NotesKeeper-&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/NotesKeeper-)
+
+</div>
 
 ---
 
