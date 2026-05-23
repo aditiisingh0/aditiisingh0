@@ -1,92 +1,108 @@
-## Hi there 👋
-# Hi, I'm Aditi Singh 👋
+name: Update README with Pinned Repos
 
-🎓 B.Tech Electrical Engineering (2022–2026)  
-💻 Software Developer | Java | Spring Boot | Backend | IoT  
-📍 Kolkata, India  
+on:
+  schedule:
+    - cron: '0 0 * * *'   # runs every day at midnight UTC
+  push:
+    branches: [main]
+  workflow_dispatch:       # allows manual trigger from GitHub UI
 
----
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
-## 🚀 About Me
-- Backend developer with experience in **Java, Spring Boot, FastAPI**
-- Worked on **IoT + Real-time Data + REST APIs**
-- Strong in **Data Structures, OOP, DBMS, SQL**
-- Interested in **Backend Engineering & Software Development**
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
----
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-## 🛠 Tech Stack
-**Languages:** Java, Python, SQL, C  
-**Backend:** Spring Boot, FastAPI, REST APIs  
-**Frontend:** HTML, CSS, JavaScript  
-**Database:** MySQL, MongoDB  
-**Tools:** Git, GitHub, Postman, Linux  
-**Other:** Arduino, Embedded Systems, Streamlit
+      - name: Install dependencies
+        run: pip install requests
 
----
+      - name: Fetch pinned repos and update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: aditiisingh0
+        run: |
+          python3 << 'EOF'
+          import requests, os, re
 
-## 🚀 Featured Projects
+          username = os.environ["USERNAME"]
+          token    = os.environ["GITHUB_TOKEN"]
 
-### 🔹 LokAI – AI Government Scheme Assistant
-A multilingual AI assistant that helps Indian citizens find and understand government welfare schemes.
-- AI chatbot for scheme information
-- Eligibility checker
-- Voice interaction support
-- Built using HTML, CSS, JavaScript, APIs
+          # GraphQL query to get pinned repositories
+          query = """
+          {
+            user(login: "%s") {
+              pinnedItems(first: 6, types: REPOSITORY) {
+                nodes {
+                  ... on Repository {
+                    name
+                    description
+                    url
+                    stargazerCount
+                    forkCount
+                    primaryLanguage { name color }
+                  }
+                }
+              }
+            }
+          }
+          """ % username
 
-🔗 Project Link: https://github.com/aditisingh0/LokAI
+          resp = requests.post(
+            "https://api.github.com/graphql",
+            json={"query": query},
+            headers={"Authorization": f"Bearer {token}"}
+          )
 
----
+          nodes = resp.json()["data"]["user"]["pinnedItems"]["nodes"]
 
-### 🔹 CyberGuard – Digital Identity Protection Platform
-AI-powered cybersecurity platform that analyzes digital footprints and detects data breach risks.
-- Digital identity risk score
-- Security recommendations
-- Data breach detection
-- Cyber awareness dashboard
+          # Build markdown table for pinned repos
+          lines = []
+          lines.append("<div align='center'>")
+          lines.append("")
+          lines.append("| Repository | Description | Stars | Forks | Language |")
+          lines.append("|-----------|-------------|-------|-------|----------|")
 
-🔗 Project Link: https://github.com/aditisingh0/CyberGuard-Digital-Identity-Protection-Platform
+          for repo in nodes:
+              name  = repo["name"]
+              desc  = repo.get("description") or "No description"
+              url   = repo["url"]
+              stars = repo["stargazerCount"]
+              forks = repo["forkCount"]
+              lang  = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else "—"
+              lines.append(f"| [**{name}**]({url}) | {desc} | ⭐ {stars} | 🍴 {forks} | `{lang}` |")
 
----
+          lines.append("")
+          lines.append("</div>")
 
-### 🔹 NotesKeeper – Notes Management Web App
-A web app to create, store, and manage notes.
-- Add, edit, delete notes
-- Simple and responsive UI
-- Local storage/database support
+          new_section = "\n".join(lines)
 
-🔗 Project Link: https://github.com/aditisingh0/NotesKeeper-
+          # Replace content between markers in README
+          with open("README.md", "r") as f:
+              content = f.read()
 
----
+          pattern = r"(<!-- PINNED-REPOS-START -->).*?(<!-- PINNED-REPOS-END -->)"
+          replacement = f"<!-- PINNED-REPOS-START -->\n{new_section}\n<!-- PINNED-REPOS-END -->"
+          updated = re.sub(pattern, replacement, content, flags=re.DOTALL)
 
-### 🔹 IoT-Based Weather Monitoring System
-IoT system that collects environmental data and shows analytics dashboard.
-- Arduino sensor data collection
-- FastAPI backend
-- MongoDB database
-- Streamlit dashboard
-- Real-time data visualization
----
+          with open("README.md", "w") as f:
+              f.write(updated)
 
-## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aditisingh&show_icons=true&theme=radical)
+          print("README updated successfully!")
+          EOF
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aditisingh&layout=compact)
-
----
-
-## 🔥 GitHub Streak
-![GitHub Streak](https://streak-stats.demolab.com/?user=aditisingh&theme=radical)
-
----
-
-## 🏆 Achievements
-- 99.61 Percentile – Naukri Campus Young Turks 2025
-- Java (Basic) – HackerRank Certified
-- Industrial Training – Bakreshwar Thermal Power Plant
-
----
-
-## 📫 Contact Me
-- Email: aditituktuksingh@gmail.com
-- LinkedIn: https://www.linkedin.com/in/aditi-singh-a44b5126b/
+      - name: Commit and push changes
+        run: |
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: auto-update pinned repos [skip ci]"
+          git push
