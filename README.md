@@ -66,30 +66,22 @@
 
 ## 📌 All Repositories
 
-<div align="center">
-
-[![ai-spend-audit](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=ai-spend-audit&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/ai-spend-audit)
-[![oneatlas-template-backend](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=oneatlas-template-backend&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/oneatlas-template-backend)
-
-[![OneAtlas-Backend](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=OneAtlas-Backend&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/OneAtlas-Backend)
-[![jan-aushadhi-mitrah](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=jan-aushadhi-mitrah&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/jan-aushadhi-mitrah)
-
-[![CompIQ](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=CompIQ&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/CompIQ)
-[![appforge](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=appforge&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/appforge)
-
-[![Polyglot-Calculators](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=Polyglot-Calculators&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/Polyglot-Calculators)
-[![folioforge](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=folioforge&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/folioforge)
-
-[![jan-aushadhi-mitra](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=jan-aushadhi-mitra&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/jan-aushadhi-mitra)
-[![cyber_security_env](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=cyber_security_env&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/cyber_security_env)
-
-[![Interactive-Calendar-](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=Interactive-Calendar-&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/Interactive-Calendar-)
-[![CyberGuard-Digital-Identity-Protection-Platform](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=CyberGuard-Digital-Identity-Protection-Platform&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/CyberGuard-Digital-Identity-Protection-Platform)
-
-[![LOKAI](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=LOKAI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/LOKAI)
-[![NotesKeeper-](https://github-readme-stats.vercel.app/api/pin/?username=aditiisingh0&repo=NotesKeeper-&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)](https://github.com/aditiisingh0/NotesKeeper-)
-
-</div>
+| 🗂️ Repository | 🛠️ Language | 📄 Description |
+|--------------|------------|---------------|
+| [🔗 ai-spend-audit](https://github.com/aditiisingh0/ai-spend-audit) | TypeScript | AI-powered spend audit tool |
+| [🔗 oneatlas-template-backend](https://github.com/aditiisingh0/oneatlas-template-backend) | TypeScript | Backend template for OneAtlas |
+| [🔗 OneAtlas-Backend](https://github.com/aditiisingh0/OneAtlas-Backend) | TypeScript | OneAtlas backend service |
+| [🔗 jan-aushadhi-mitrah](https://github.com/aditiisingh0/jan-aushadhi-mitrah) | — | Jan Aushadhi helper app |
+| [🔗 CompIQ](https://github.com/aditiisingh0/CompIQ) | TypeScript | Competitive intelligence platform |
+| [🔗 appforge](https://github.com/aditiisingh0/appforge) | TypeScript | App builder tool |
+| [🔗 Polyglot-Calculators](https://github.com/aditiisingh0/Polyglot-Calculators) | Java | Calculator programs in multiple languages |
+| [🔗 folioforge](https://github.com/aditiisingh0/folioforge) | JavaScript | Portfolio generator |
+| [🔗 jan-aushadhi-mitra](https://github.com/aditiisingh0/jan-aushadhi-mitra) | CSS | AI Generic Medicine Finder & Store Locator |
+| [🔗 cyber_security_env](https://github.com/aditiisingh0/cyber_security_env) | Python | Cybersecurity environment setup |
+| [🔗 Interactive-Calendar-](https://github.com/aditiisingh0/Interactive-Calendar-) | JavaScript | Interactive calendar web app |
+| [🔗 CyberGuard-Digital-Identity-Protection-Platform](https://github.com/aditiisingh0/CyberGuard-Digital-Identity-Protection-Platform) | — | AI-powered digital identity protection |
+| [🔗 LOKAI](https://github.com/aditiisingh0/LOKAI) | HTML | Multilingual AI assistant for govt schemes |
+| [🔗 NotesKeeper-](https://github.com/aditiisingh0/NotesKeeper-) | HTML | Notes management web app |
 
 ---
 
