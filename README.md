@@ -64,6 +64,14 @@
 ---
 
 
+<!-- AUTO-UPDATED PINNED REPOS SECTION — updated by GitHub Actions -->
+## 📌 Pinned Repositories
+<!-- PINNED-REPOS-START -->
+<!-- This section is auto-updated every day by GitHub Actions workflow -->
+<!-- PINNED-REPOS-END -->
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
