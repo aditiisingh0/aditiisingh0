@@ -63,32 +63,6 @@
 
 ---
 
-### 🔹 [NotesKeeper – Notes Management Web App](https://github.com/aditiisingh0/NotesKeeper-)
-> A web app to create, store, and manage notes with a clean UI.
-
-- 📝 Add, edit, delete notes
-- 📱 Simple and responsive UI
-- 💾 Local storage/database support
-
----
-
-### 🔹 IoT-Based Weather Monitoring System
-> IoT system that collects environmental data and displays a real-time analytics dashboard.
-
-- 🔌 Arduino sensor data collection
-- ⚡ FastAPI backend
-- 🍃 MongoDB database
-- 📈 Streamlit dashboard with real-time visualization
-
----
-
-<!-- AUTO-UPDATED PINNED REPOS SECTION — updated by GitHub Actions -->
-## 📌 Pinned Repositories
-<!-- PINNED-REPOS-START -->
-<!-- This section is auto-updated every day by GitHub Actions workflow -->
-<!-- PINNED-REPOS-END -->
-
----
 
 ## 📊 GitHub Stats
 
