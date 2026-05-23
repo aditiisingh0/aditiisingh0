@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Animated typing effect -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Aditi+Singh+%F0%9F%91%8B;Backend+Developer+%7C+Java+%7C+Spring+Boot;IoT+%2B+Real-time+Data+Enthusiast;Always+learning%2C+always+building+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Aditi+Singh+%F0%9F%91%8B;Backend+Developer+%7C+Java+%7C+Spring+Boot;Software+Developer+%7C+REST+APIs+%7C+IoT;IoT+%2B+Real-time+Data+Enthusiast;Always+learning%2C+always+building+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <!-- Animated wave banner -->
-![wave](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Aditi%20Singh&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=B.Tech%20EE%20%7C%20Backend%20Dev%20%7C%20Kolkata&descAlignY=55&descSize=18)
+![wave](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Aditi%20Singh&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=B.Tech%20EE%20%7C%20Backend%20Dev%20%7C%20Software%20Dev%20%7C%20Kolkata&descAlignY=55&descSize=18)
 
 </div>
 
